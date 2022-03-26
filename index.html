@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implate</title>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/common.js" defer></script>
+    <script src="js/inert.js" defer></script>
+</head>
+
+<body class="dark-theme">
+    <header class="header">
+        <div class="container header__container flex">
+            <div class="header__left flex">
+                <a class="header__logo logo" href="#">
+                    <span class="logo__stylish">Im</span>plate.
+                </a>
+
+                <ul class="header__social social flex">
+                    <li class="social__item">
+                        <a class="social__link social__link--fb" href="#" aria-label="Go to Facebook"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--tw" href="#" aria-label="Go to Twitter"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--in" href="#" aria-label="Go to Linkedin"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--be" href="#" aria-label="Go to Behance"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--inst" href="#" aria-label="Go to Instagram"></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link--dr" href="#" aria-label="Go to Dribble"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="header__burger burger reset-btn" aria-label="Open menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="menu">
+        <header class="header">
+            <div class="container header__container flex">
+                <div class="header__left flex">
+                    <a class="header__logo logo" href="#">
+                        <span class="logo__stylish">Im</span>plate.
+                    </a>
+
+                    <ul class="header__social social flex">
+                        <li class="social__item">
+                            <a class="social__link social__link--fb" href="#" aria-label="Go to Facebook"></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--tw" href="#" aria-label="Go to Twitter"></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--in" href="#" aria-label="Go to Linkedin"></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--be" href="#" aria-label="Go to Behance"></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--inst" href="#" aria-label="Go to Instagram"></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link social__link--dr" href="#" aria-label="Go to Dribble"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="header__close close reset-btn" aria-label="Close  menu">
+                    <span class="close__line"></span>
+                    <span class="close__line"></span>
+                </button>
+            </div>
+        </header>
+        <nav class="menu-nav">
+            <ul class="menu-nav__list">
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Home.</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">About.</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Works.</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Blog.</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a class="menu-nav__link" href="#">Contact.</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="first">
+            <!-- playsinline для мобилок и айфонов -->
+            <video class="video first__video" src="img/video.mp4" poster="img/video-poster.jpg" playsinline muted loop></video>
+            <div class="container first__container">
+                <span class="first__subtitle">The Best Creative Agency</span>
+                <h1 class="first__heading">Make your tasks easier.</h1>
+                <p class="first__descr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repellendus fuga perferendis. Tenetur eligendi provident alias consectetur atque est quis voluptates repudiandae perferendis rem aliquam nihil libero accusantium, illo nisi?
+                </p>
+                <div class="first__video-controller video-controller flex">
+                    <button class="video-controller--play reset-btn video-controller__btn" aria-label="Start video"></button>
+                    <button class="video-controller--pause reset-btn video-controller__btn" aria-label="Stop video"></button>
+                    <div class="video-controller__bar bar">
+                        <!-- линия, которая двигается -->
+                        <span class="bar__line"></span>
+                    </div>
+                </div>
+            </div>
+            <span class="first__decoration-text decoration-text" aria-hidden="true">Introduction to Implate</span>
+        </section>
+
+        <section class="about">
+            <div class="container about__container">
+                <h2 class="visually-hidden">About Template</h2>
+                <div class="about__text">
+                    <h3 class="about__heading">
+                        we find unique solutions specifically for your projects.
+                    </h3>
+                    <p class="about__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veritatis voluptatum tenetur quia fugit eligendi accusamus a nulla ut illum laudantium, natus sed id porro eaque doloribus doloremque error atque.
+                    </p>
+                </div>
+                <div class="about__text">
+                    <h3 class="about__heading">
+                        <span class="about__stylish">im</span>plate is not only a cosmetic design, but also functional experience.
+                    </h3>
+                    <p class="about__descr">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis veritatis voluptatum tenetur quia fugit eligendi accusamus a nulla ut illum laudantium, natus sed id porro eaque doloribus doloremque error atque.
+                    </p>
+                    <p class="about__descr">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ducimus ad recusandae cumque eaque rerum excepturi voluptatibus possimus repudiandae consectetur, earum, harum provident vel doloremque veritatis minima animi delectus. Eos.
+                    </p>
+                </div>
+            </div>
+            <span class="about__decoration-text decoration-text" aria-hidden="true" >Description</span>
+        </section>
+
+        <section class="portfolio">
+            <h2 class="visually-hidden">Portfolio</h2>
+            <div class="container portfolio__container">
+                <ul class="portfolio__items flex">
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href aria-label="Mobile App Project">
+                            <img class="portfolio-item__image" src="img/1.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/2.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/3.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/1.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/2.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/3.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/1.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+
+                    <li class="portfolio__li">
+                        <a class="portfolio__link portfolio-item" href>
+                            <img class="portfolio-item__image" src="img/2.jpg" alt="Portfolio 1">
+                            <ul class="portfolio-item__tags">
+                                <li class="portfolio-item__li">Streetlent</li>
+                                <li class="portfolio-item__li">Sport</li>
+                                <li class="portfolio-item__li">News</li>
+                            </ul>
+                            <span class="portfolio-item__category">Mobile Apps.</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <h2 class="visually-hidden">Portfolio</h2>
+            <div class="container contacts__container">
+                <ul class="contacts__list flex">
+                    <li class="contacts__item">
+                        <h3 class="contacts__heading contacts__heading--phone">Phone</h3>
+                        <a class="contacts__value" href="tel:+12345678900" aria-label="Call the company">+1 234 567 8900</a>
+                        <a class="contacts__value" href="tel:+19876548900" aria-label=""Call the company">+1 987 654 8900</a>
+                    </li>
+                    <li class="contacts__item">
+                        <h3 class="contacts__heading contacts__heading--email">Email</h3>
+                        <a class="contacts__value" href="mailto:support@implate.com" aria-label="Write a letter the company">support@implate.com</a>
+                        <a class="contacts__value" href="mailto:feedback@implate.com" aria-label="Write a letter the company">feedback@implate.com</a>
+                    </li>
+                    <li class="contacts__item">
+                        <h3 class="contacts__heading contacts__heading--address">Address</h3>
+                        <span class="contacts__value">USA, New York, <br> 410 E 6th St, NY 10009</span>
+                    </li>
+                    <li class="contacts__item">
+                        <h3 class="contacts__heading contacts__heading--skype">Skype</h3>
+                        <span class="contacts__value">
+                            Just click <a href="skype:implate" aria-label="Call on Skype">here</a> <br>
+                            to make a call
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <span class="contacts-item__category decoration-text" aria-hidden="true" >Details</span>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container flex">
+            <a class="footer__logo logo" href="#">
+                <span class="logo__stylish">Im</span>plate.
+            </a>
+
+            <small class="footer__designed">Designed by DAR klight</small>
+            <small class="footer__copyright">ⓒ implate. All rights reserved.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
